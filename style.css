@@ -1,6 +1,87 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 body {
     font-family: 'Noto Sans', sans-serif;
-    max-width: 80%; /* Adjust this value to your desired maximum width */
-    margin: 30px auto 0;
-    padding: 30px;
+    max-width:80%; /* Adjust this value to your desired maximum width */
+    margin: 10px auto 0;
+    padding: 10px;
+}
+
+body p{
+    font-size: 15px;
+}
+
+a {
+    color:#347134;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+a:hover{
+    color: #0077b5; /* Change color on hover */
+    
+}
+
+#name {
+    font-family: 'Abril Fatface', cursive;
+    color: #347134;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+/* Create a container for the columns */
+.container {
+    display: flex; /* Use flexbox to create the two-column layout */
+}
+
+/* Style the left column */
+.left-column {
+    flex: 1; /* Make the left column flexible to take up remaining space */
+    background-color: #f0f0f0; /* Add a background color for differentiation */
+    padding: 20px; /* Add some padding for spacing */
+    align-items: center;
+}
+
+/* Style the "handle" container to display the icon and email on the same line */
+.handle {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+/* Style the mail icon */
+.handle i {
+    font-size: 24px; /* Adjust the size of the icon as needed */
+    margin-right: 10px; /* Add spacing between the icon and email */
+    margin-bottom: 0px;
+    color: #347134;
+}
+
+.handle i:hover {
+    color: #0077b5; /* Change color on hover */
+}
+
+.handle p {
+    margin: 5px;
+}
+
+/* Style the right column */
+.right-column {
+    flex: 3; /* Make the right column twice as wide as the left column */
+    background-color: #ffffff; /* Add a background color for differentiation */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+img {
+    max-width: 90%;
+    padding-right: 10%;
+    height: auto;
+    margin-bottom: 20px;
 }
