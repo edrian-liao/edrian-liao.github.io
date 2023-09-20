@@ -78,6 +78,8 @@ a:hover{
     flex: 3; /* Make the right column twice as wide as the left column */
     background-color: #f0f0f0; /* Add a background color for differentiation */
     padding: 20px; /* Add some padding for spacing */
+    padding-right: 60px;
+    padding-left: 0px;
 }
 
 img {
