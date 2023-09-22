@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
-    max-width:80%; /* Adjust this value to your desired maximum width */
+    max-width:50%; /* Adjust this value to your desired maximum width */
     margin: 10px auto 0;
     padding: 10px;
     background-color: #b8dcb0;
@@ -29,7 +29,7 @@ a:hover{
     
 }
 
-#name {
+.title {
     font-family: 'Abril Fatface', cursive;
     color: #347134;
     font-size: 50px;
@@ -37,9 +37,41 @@ a:hover{
     margin-bottom: 15px;
 }
 
-/* Create a container for the columns */
-.container {
-    display: flex; /* Use flexbox to create the two-column layout */
+/* Style for the navigation */
+.navigation {
+    background-color: #347134; /* Background color for the navigation bar */
+    color: #fff; /* Text color for the links */
+    text-align: center; /* Center the navigation links horizontally */
+    padding: 5px 0; /* Add padding above and below the navigation bar */
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0 10px; /* Add space between the navigation items */
+}
+
+.navigation li:hover {
+    display: inline;
+    margin: 0 10px; /* Add space between the navigation items */
+    background-color: #b8dcb0;
+    color: #000;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Style for the content area */
+.content {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow columns to wrap to the next row on smaller screens */
 }
 
 /* Style the left column */
@@ -75,7 +107,7 @@ a:hover{
 
 /* Style the right column */
 .right-column {
-    flex: 3; /* Make the right column twice as wide as the left column */
+    flex: 2; /* Make the right column twice as wide as the left column */
     background-color: #f0f0f0; /* Add a background color for differentiation */
     padding: 20px; /* Add some padding for spacing */
     padding-right: 60px;
@@ -90,9 +122,15 @@ img {
     align-items: center;
 }
 
+.content-teach {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
 /* MEDIA QUERIES */
 
-@media (max-width: 1000px) {
+@media (max-width: 1250px) {
     body {
         font-family: 'Noto Sans', sans-serif;
         max-width:80%; /* Adjust this value to your desired maximum width */
