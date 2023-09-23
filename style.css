@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
-    max-width:50%; /* Adjust this value to your desired maximum width */
+    max-width:60%; /* Adjust this value to your desired maximum width */
     margin: 10px auto 0;
     padding: 10px;
     background-color: #b8dcb0;
@@ -130,7 +130,7 @@ img {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1250px) {
+@media (max-width: 1000px) {
     body {
         font-family: 'Noto Sans', sans-serif;
         max-width:80%; /* Adjust this value to your desired maximum width */
@@ -138,6 +138,11 @@ img {
         padding: 10px;
         background-color: #ffffff;
     }
+    .content-teach {
+        background-color: #fff;
+        text-align: justify;
+    }
+
     .container {
         flex-direction: column; /* Change to a vertical layout */
         background-color: #ffffff;
@@ -148,6 +153,10 @@ img {
         text-align: center;
     }
 
+    .right-column {
+        text-align: justify;
+    }
+
     .left-column,
     .right-column {
         flex: none; /* Remove the flex property to stack the columns */
@@ -155,6 +164,7 @@ img {
         margin: 0;
         padding: 0;
         background-color: #ffffff;
+        
     }
 
     img {
@@ -166,5 +176,22 @@ img {
 
     .handle {
         margin-left: 13%;
+    }
+
+    .navigation {
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1600px) {
+    body {
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 2000px) {
+    body {
+        max-width: 45%;
     }
 }
