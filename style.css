@@ -7,11 +7,11 @@
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
-    max-width:60%; /* Adjust this value to your desired maximum width */
-    margin: 10px auto 0;
-    padding: 10px;
-    background-color: #b8dcb0;
+    font-family: 'Fira Code', monospace;
+    max-width:100%; /* Adjust this value to your desired maximum width */
+    /* margin: 10px auto 0;
+    padding: 10px; */
+    background-color: white;
 }
 
 body p{
@@ -77,16 +77,18 @@ a:hover{
 /* Style the left column */
 .left-column {
     flex: 1; /* Make the left column flexible to take up remaining space */
-    background-color: #f0f0f0; /* Add a background color for differentiation */
+    background-color: #ffffff; /* Add a background color for differentiation */
     padding: 20px; /* Add some padding for spacing */
-    align-items: center;
+    /* padding-left: 40px; */
+    padding-right: 0px;
+    text-align:center;
 }
 
 /* Style the "handle" container to display the icon and email on the same line */
 .handle {
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 /* Style the mail icon */
@@ -103,24 +105,37 @@ a:hover{
 
 .handle p {
     margin: 5px;
+    /* margin-right: 0px; */
+    /* text-align: right; */
 }
 
 /* Style the right column */
 .right-column {
     flex: 2; /* Make the right column twice as wide as the left column */
-    background-color: #f0f0f0; /* Add a background color for differentiation */
+    background-color: #ffffff; /* Add a background color for differentiation */
     padding: 20px; /* Add some padding for spacing */
-    padding-right: 60px;
-    padding-left: 0px;
+    /* padding-left: 0px; */
+    padding-right: 300px;
+    /* margin-right: 300px; */
+    /* margin-left: 10px; */
 }
 
-img {
-    max-width: 90%;
-    padding-right: 10%;
-    height: auto;
+.image-container {
+    background-color: #347134; /* Set your desired background color */
+    padding: 15px; /* Set your desired padding */
+    display: inline-block; /* Prevent the container from taking the full width */
+    width: 70%;
     margin-bottom: 20px;
-    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 15px;
 }
+
+.image-container img {
+    max-width: 100%;
+    margin: 0px;
+    border-radius: 15px;
+}
+
 
 .content-teach {
     background-color: #f0f0f0;
@@ -128,11 +143,16 @@ img {
     padding: 20px;
 }
 
+.links {
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
     body {
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Fira Code', monospace;
         max-width:80%; /* Adjust this value to your desired maximum width */
         margin: 10px auto 0;
         padding: 10px;
@@ -140,7 +160,6 @@ img {
     }
     .content-teach {
         background-color: #fff;
-        text-align: justify;
     }
 
     .container {
@@ -151,10 +170,6 @@ img {
 
     .left-column {
         text-align: center;
-    }
-
-    .right-column {
-        text-align: justify;
     }
 
     .left-column,
@@ -172,10 +187,6 @@ img {
         height: auto;
         margin-bottom: 20px;
         padding: 0;
-    }
-
-    .handle {
-        margin-left: 13%;
     }
 
     .navigation {
