@@ -1,6 +1,6 @@
 // Store the words you want to cycle through in an array
 const words1 = ["Kumusta?👋🏽 Ako si  Ed. ", "How are you?👋🏽 I am Ed. "];
-const words2 = ["Projeykto", "Projects"];
+const words2 = ["Proyekto", "Projects"];
 const words3 = ["Dugtong", "Links"];
 let currentWordIndex = 1;
 

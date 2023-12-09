@@ -195,14 +195,14 @@ a:hover{
     }
 }
 
-@media (min-width: 1600px) {
+/* @media (min-width: 1600px) {
     body {
         max-width: 50%;
     }
-}
+} */
 
-@media (min-width: 2000px) {
+/* @media (min-width: 2000px) {
     body {
         max-width: 45%;
     }
-}
+} */
