@@ -6,22 +6,40 @@
   'opsz' 24
 }
 
+html {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+@font-face {
+    font-family: CMUTypewriter;
+    src: url(fonts/cmuntt.ttf);
+}
+
 body {
-    font-family: 'Fira Code', monospace;
+    font-family: 'Source Sans 3';
+    font-size: 20px;
     max-width:100%; /* Adjust this value to your desired maximum width */
-    /* margin: 10px auto 0;
-    padding: 10px; */
+    margin: 0 auto;
+    padding: 0 auto; 
     background-color: white;
 }
 
 body p{
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 auto;
+    
 }
 
 a {
     color:#347134;
     text-decoration: none;
-    font-weight:bold;
+    font-weight: 900;
+    font-family: CMUTypewriter;
 }
 
 a:hover{
@@ -42,7 +60,7 @@ a:hover{
     background-color: #347134; /* Background color for the navigation bar */
     color: #fff; /* Text color for the links */
     text-align: center; /* Center the navigation links horizontally */
-    padding: 5px 0; /* Add padding above and below the navigation bar */
+    padding: 0 auto; /* Add padding above and below the navigation bar */
 }
 
 .navigation ul {
@@ -72,6 +90,7 @@ a:hover{
 .content {
     display: flex; /* Use flexbox for layout */
     flex-wrap: wrap; /* Allow columns to wrap to the next row on smaller screens */
+    margin: 0 200px 0 200px;
 }
 
 /* Style the left column */
@@ -151,15 +170,19 @@ a:hover{
 /* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
+
     body {
-        font-family: 'Fira Code', monospace;
+        font-size: 15px;
         max-width:80%; /* Adjust this value to your desired maximum width */
-        margin: 10px auto 0;
-        padding: 10px;
+        margin: 0 auto;
+        padding: 0 auto;
         background-color: #ffffff;
     }
-    .content-teach {
-        background-color: #fff;
+    body p {
+        font-size: 18px;
+    }
+    .content {
+        margin: 0 auto;
     }
 
     .container {
