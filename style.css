@@ -40,13 +40,6 @@ a {
     text-decoration: none;
     font-weight: 900;
     font-family: CMUTypewriter;
-    background-color: lightgray;
-    border-radius: 5px;
-    padding: 0 5px 0 5px;
-}
-
-.handle a {
-    background-color: white;
 }
 
 a:hover{
@@ -102,10 +95,11 @@ a:hover{
 
 /* Style the left column */
 .left-column {
-    flex: 1; /* Make the left column flexible to take up remaining space */
+    flex: 1.5; /* Make the left column flexible to take up remaining space */
     background-color: #ffffff; /* Add a background color for differentiation */
-    padding: 20px; /* Add some padding for spacing */
-    /* padding-left: 40px; */
+    padding: 20px; 
+    /* Add some padding for spacing */
+    padding-left: 0px;
     padding-right: 0px;
     text-align:center;
 }
@@ -141,7 +135,7 @@ a:hover{
     background-color: #ffffff; /* Add a background color for differentiation */
     padding: 20px; /* Add some padding for spacing */
     /* padding-left: 0px; */
-    padding-right: 300px;
+    padding-right: 10%;
     /* margin-right: 300px; */
     /* margin-left: 10px; */
 }
@@ -150,7 +144,7 @@ a:hover{
     background-color: #347134; /* Set your desired background color */
     padding: 15px; /* Set your desired padding */
     display: inline-block; /* Prevent the container from taking the full width */
-    width: 70%;
+    width: 60%;
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-radius: 15px;
@@ -225,9 +219,9 @@ a:hover{
     }
 }
 
-/* @media (min-width: 1600px) {
-    body {
-        max-width: 50%;
+/* @media (max-width: 1600px) {
+    .content {
+        margin: 0 100px 0 100px;
     }
 } */
 
