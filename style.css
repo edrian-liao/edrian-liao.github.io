@@ -40,6 +40,13 @@ a {
     text-decoration: none;
     font-weight: 900;
     font-family: CMUTypewriter;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+}
+
+.handle a {
+    background-color: white;
 }
 
 a:hover{
