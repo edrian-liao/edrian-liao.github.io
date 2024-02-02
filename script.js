@@ -2,6 +2,7 @@
 const words1 = ["Kumusta? 👋🏽 Ako si  Ed. ", "How are you? 👋🏽 I am Ed. "];
 const words2 = ["Proyekto", "Projects"];
 const words3 = ["Dugtong", "Links"];
+const words4 = ["Mga Aklat", "Books"];
 let currentWordIndex = 1;
 
 // Function to update the word every 5 seconds
@@ -12,6 +13,8 @@ function updateWord() {
     changingWord2.textContent = words2[currentWordIndex];
     const changingWord3 = document.getElementById("changing-word3");
     changingWord3.textContent = words3[currentWordIndex];
+    const changingWord4 = document.getElementById("changing-word4");
+    changingWord4.textContent = words4[currentWordIndex];
     currentWordIndex = (currentWordIndex + 1) % words1.length;
 }
 

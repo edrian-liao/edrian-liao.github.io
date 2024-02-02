@@ -168,6 +168,35 @@ a:hover{
     margin: 0 auto;
 }
 
+.bookshelf p{
+    font-size: 16px;
+}
+
+#book {
+    background-color: #b8dcb0;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#book #content {
+    display: none;
+}
+
+#book:hover {
+    background-color:#347134;
+    color: white;
+}
+
+#book:hover #title {
+    display: none;
+}
+
+#book:hover #content {
+    display: inline;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
