@@ -21,3 +21,12 @@ function updateWord() {
 // Update the word initially and set an interval to update it every 2 seconds
 updateWord();
 setInterval(updateWord, 5000); 
+
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleButton = document.querySelector('.toggle-button');
+    const navLinks = document.querySelector('.nav-links');
+ 
+    toggleButton.addEventListener('click', function () {
+       navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+    });
+ });

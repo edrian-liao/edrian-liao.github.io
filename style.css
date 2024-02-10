@@ -65,17 +65,22 @@ a:hover{
 
 .navigation ul {
     list-style: none;
+    margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
 }
 
 .navigation li {
     display: inline;
-    margin: 0 10px; /* Add space between the navigation items */
+    margin: 0 20px; /* Add space between the navigation items */
+    padding: 10px;
 }
 
 .navigation li:hover {
-    display: inline;
-    margin: 0 10px; /* Add space between the navigation items */
+    /* display: inline; */
+    margin: 0 20px; /* Add space between the navigation items */
     background-color: #b8dcb0;
     color: #000;
 }
@@ -84,6 +89,9 @@ a:hover{
     text-decoration: none;
     color: inherit; /* Inherit the color from the parent */
     font-weight: bold; /* Make the text bold */
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Source Sans 3';
 }
 
 /* Style for the content area */
@@ -209,10 +217,12 @@ a:hover{
 
     body {
         font-size: 15px;
-        max-width:80%; /* Adjust this value to your desired maximum width */
         margin: 0 auto;
         padding: 0 auto;
         background-color: #ffffff;
+    }
+    body .content {
+        max-width:85%;
     }
     body p {
         font-size: 18px;
@@ -248,9 +258,8 @@ a:hover{
         padding: 0;
     }
 
-    .navigation {
-        border-radius: 20px;
-        margin-bottom: 20px;
+    .links, .bookshelf{
+        width: 80%;
     }
 }
 
