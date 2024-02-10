@@ -220,11 +220,11 @@ a:hover{
         background-color: #ffffff;
     }
     body .content {
-        max-width:85%;
+        max-width: 90%;
         font-size: 15px;
     }
     body p {
-        font-size: 18px;
+        font-size: 19px;
     }
     .content {
         margin: 0 auto;
@@ -258,7 +258,7 @@ a:hover{
     }
 
     .links, .bookshelf{
-        width: 80%;
+        width: 95%;
     }
 }
 
