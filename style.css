@@ -61,6 +61,7 @@ a:hover{
     color: #fff; /* Text color for the links */
     text-align: center; /* Center the navigation links horizontally */
     padding: 0 auto; /* Add padding above and below the navigation bar */
+    margin-bottom: 10px;
 }
 
 .navigation ul {
@@ -86,11 +87,9 @@ a:hover{
 }
 
 .navigation a {
-    text-decoration: none;
-    color: inherit; /* Inherit the color from the parent */
-    font-weight: bold; /* Make the text bold */
-    text-decoration: none;
-    font-weight: bold;
+    font-size: 22px;
+    font-style: 600;
+    color: white;
     font-family: 'Source Sans 3';
 }
 
@@ -216,13 +215,13 @@ a:hover{
 @media (max-width: 1000px) {
 
     body {
-        font-size: 15px;
         margin: 0 auto;
         padding: 0 auto;
         background-color: #ffffff;
     }
     body .content {
         max-width:85%;
+        font-size: 15px;
     }
     body p {
         font-size: 18px;
