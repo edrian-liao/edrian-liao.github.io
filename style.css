@@ -36,20 +36,20 @@ body p{
 }
 
 a {
-    color:#347134;
+    color:#BF6D4E;
     text-decoration: none;
     font-weight: 900;
     font-family: CMUTypewriter;
 }
 
 a:hover{
-    color: #0077b5; /* Change color on hover */
+    color: #40251F; /* Change color on hover */
     
 }
 
 .title {
     font-family: 'Abril Fatface', cursive;
-    color: #347134;
+    color: #8C634A;
     font-size: 50px;
     margin-top: 0px;
     margin-bottom: 15px;
@@ -57,7 +57,7 @@ a:hover{
 
 /* Style for the navigation */
 .navigation {
-    background-color: #347134; /* Background color for the navigation bar */
+    background-color: #40251F; /* Background color for the navigation bar */
     color: #fff; /* Text color for the links */
     text-align: center; /* Center the navigation links horizontally */
     padding: 0 auto; /* Add padding above and below the navigation bar */
@@ -82,7 +82,7 @@ a:hover{
 .navigation li:hover {
     /* display: inline; */
     margin: 0 20px; /* Add space between the navigation items */
-    background-color: #b8dcb0;
+    background-color: #BF6D4E;
     color: #000;
 }
 
@@ -123,11 +123,11 @@ a:hover{
     font-size: 24px; /* Adjust the size of the icon as needed */
     margin-right: 10px; /* Add spacing between the icon and email */
     margin-bottom: 0px;
-    color: #347134;
+    color: #BF6D4E;
 }
 
 .handle i:hover {
-    color: #0077b5; /* Change color on hover */
+    color: #40251F; /* Change color on hover */
 }
 
 .handle p {
@@ -148,7 +148,7 @@ a:hover{
 }
 
 .image-container {
-    background-color: #347134; /* Set your desired background color */
+    background-color: #8C634A; /* Set your desired background color */
     padding: 15px; /* Set your desired padding */
     display: inline-block; /* Prevent the container from taking the full width */
     width: 60%;
@@ -185,11 +185,12 @@ a:hover{
 }
 
 #book {
-    background-color: #b8dcb0;
+    background-color: #8C634A;
     padding: 10px;
     border-radius: 15px;
     margin-bottom: 10px;
     font-size: 18px;
+    color: white;
     
 }
 
@@ -198,8 +199,8 @@ a:hover{
 }
 
 #book:hover {
-    background-color:#347134;
-    color: white;
+    background-color:#BF6D4E;
+    color: black;
 }
 
 #book:hover #title {
